@@ -1,0 +1,20 @@
+genex_fastq: '/path/to/gene_expression_fastqs'
+crispr_fastq: '/path/to/crispr_fastqs'
+reference: '/path/to/refdata-cellranger-arc-GRCh38-2020-A-2.0.0'
+feature_reference: '/path/to/feature_reference.csv'
+outdir: './results'
+cellranger_id: 'my_experiment'
+container_registry: 'yourusername'  # or ECR path
+max_cpus: 12
+max_memory: '15.GB'
+
+
+max_memory: '15.GB'
+expect_cells: 5000
+publish_dir_mode: 'copy'
+
+create_bam: false
+cellranger_path: 'cellranger' 
+max_time: '48.h'
+skip_fastqc: false
+skip_multiqc: false
