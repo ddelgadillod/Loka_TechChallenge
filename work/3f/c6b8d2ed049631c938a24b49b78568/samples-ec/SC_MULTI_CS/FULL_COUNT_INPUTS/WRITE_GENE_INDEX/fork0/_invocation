@@ -1,5 +1,0 @@
-@include "rna/_cr_lib_stages.mro"
-
-call WRITE_GENE_INDEX(
-    reference_path = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/refdata-cellranger-arc-GRCh38-2020-A-2.0.0",
-)

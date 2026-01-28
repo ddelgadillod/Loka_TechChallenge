@@ -8,4 +8,5 @@ perturbseq.sh
 __test_crm.mro
 /.nextflow/
 /results-nf/
+/work/
 

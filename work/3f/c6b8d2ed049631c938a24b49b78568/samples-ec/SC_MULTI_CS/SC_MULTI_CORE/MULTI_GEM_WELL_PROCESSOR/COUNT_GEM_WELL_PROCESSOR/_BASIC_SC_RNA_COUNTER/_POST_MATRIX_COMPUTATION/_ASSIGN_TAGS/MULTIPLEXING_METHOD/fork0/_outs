@@ -1,7 +1,0 @@
-{
-    "multiplexing_is_not_cmo_or_hashtag": true,
-    "multiplexing_is_not_oh": true,
-    "multiplexing_is_not_rtl": true,
-    "multiplexing_method": null,
-    "output_per_sample_raw_matrix": false
-}

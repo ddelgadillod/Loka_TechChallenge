@@ -1,7 +1,0 @@
-@include "rna/cell_annotation_service.mro"
-
-call AGGREGATE_CELL_ANNOTATIONS(
-    cell_types = {
-        "samples-ec": null,
-    },
-)

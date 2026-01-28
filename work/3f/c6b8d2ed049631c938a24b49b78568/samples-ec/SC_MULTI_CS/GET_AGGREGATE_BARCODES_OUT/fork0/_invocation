@@ -1,7 +1,0 @@
-@include "rna/_sc_rna_counter_stages.mro"
-
-call GET_AGGREGATE_BARCODES_OUT(
-    antibody_analysis   = null,
-    is_multi            = true,
-    multiplexing_method = null,
-)

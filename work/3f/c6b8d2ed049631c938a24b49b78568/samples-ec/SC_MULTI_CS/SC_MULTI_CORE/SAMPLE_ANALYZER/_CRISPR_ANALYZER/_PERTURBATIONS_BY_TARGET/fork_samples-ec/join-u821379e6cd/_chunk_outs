@@ -1,8 +1,0 @@
-[
-    {
-        "chunk_perturbation_effects": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/_CRISPR_ANALYZER/_PERTURBATIONS_BY_TARGET/fork_samples-ec/chnk0-u821379e6d2/files/chunk_perturbation_effects.csv",
-        "chunk_perturbation_efficiencies": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/_CRISPR_ANALYZER/_PERTURBATIONS_BY_TARGET/fork_samples-ec/chnk0-u821379e6d2/files/chunk_perturbation_efficiencies.csv",
-        "perturbation_effects_path": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/_CRISPR_ANALYZER/_PERTURBATIONS_BY_TARGET/fork_samples-ec/chnk0-u821379e6d2/files/perturbation_effects_path",
-        "perturbation_efficiencies": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/_CRISPR_ANALYZER/_PERTURBATIONS_BY_TARGET/fork_samples-ec/chnk0-u821379e6d2/files/perturbation_efficiencies.csv"
-    }
-]

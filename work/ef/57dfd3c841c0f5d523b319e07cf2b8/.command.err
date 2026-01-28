@@ -1,8 +1,0 @@
-
-/// MultiQC 🔍 v1.33
-
-       file_search | Search path: /home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/ef/57dfd3c841c0f5d523b319e07cf2b8
-            fastqc | Found 32 reports
-     write_results | Data        : multiqc_report_data
-     write_results | Report      : multiqc_report.html
-           multiqc | MultiQC complete

@@ -1,6 +1,0 @@
-[stdout]
-Using provided recovered_cells = 5000
-Range empty barcodes: 45000 - 90000
-The SGT slope is -1.7921717608431316.
-Max background UMIs: 6
-Failed at attempt to call non-ambient barcodes in GEM well 1

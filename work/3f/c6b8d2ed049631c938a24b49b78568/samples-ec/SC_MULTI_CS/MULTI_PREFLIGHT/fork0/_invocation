@@ -1,9 +1,0 @@
-@include "rna/_cr_lib_stages.mro"
-
-call MULTI_PREFLIGHT(
-    config = {
-        bytes: null,
-        file:  "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/cellranger_config.csv",
-    },
-    is_pd  = false,
-)

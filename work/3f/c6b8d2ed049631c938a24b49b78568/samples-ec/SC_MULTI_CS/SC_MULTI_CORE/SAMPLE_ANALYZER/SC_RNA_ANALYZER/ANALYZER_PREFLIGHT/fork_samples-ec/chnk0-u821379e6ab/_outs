@@ -1,7 +1,0 @@
-{
-    "disable_correct_chemistry_batch": true,
-    "disable_run_pca": false,
-    "is_antibody_only": false,
-    "skip": false,
-    "skip_multigenome_analysis": false
-}

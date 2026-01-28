@@ -1,8 +1,0 @@
-{
-    "__mem_gb": 2.1,
-    "__threads": 1,
-    "__vmem_gb": 5.1,
-    "filtered_barcodes": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/samples-ec_filtered_barcodes.csv",
-    "molecule_info": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/molecule_info_samples-ec.h5",
-    "target_mode": null
-}

@@ -1,9 +1,0 @@
-{
-    "__mem_gb": 1,
-    "__threads": 1,
-    "__vmem_gb": 4,
-    "library_cloupe": null,
-    "sample_cloupe": {
-        "samples-ec": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_REPORTER/APPEND_CELL_TYPES_CLOUPE/fork_samples-ec/chnk0-u821379e7d8/files/cell_annotation_sample_cloupe.cloupe"
-    }
-}

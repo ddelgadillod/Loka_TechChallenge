@@ -1,7 +1,0 @@
-@include "rna/cell_annotation_service.mro"
-
-call APPEND_CELL_TYPES_CLOUPE(
-    sample_cloupe    = null,
-    cloupe_cas_types = null,
-    cas_track_name   = null,
-)

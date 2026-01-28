@@ -1,7 +1,0 @@
-@include "rna/_crispr_analyzer.mro"
-
-call _CRISPR_ANALYZER(
-    filtered_feature_counts_matrix = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/samples-ec_filtered_feature_barcode_matrix.h5",
-    feature_reference        = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/PARSE_MULTI_CONFIG/fork0/chnk0-u821379ddf2/files/feature_ref.csv",
-    min_crispr_umi_threshold = 3,
-)

@@ -1,1 +1,0 @@
-cellranger multi --id=samples-ec --csv=cellranger_config.csv --localcores=12 --localmem=15 --disable-ui
