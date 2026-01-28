@@ -1,0 +1,12 @@
+[gene-expression]
+reference,/home/ryockteng/Documents/ddelgadillo/refdata-cellranger-arc-GRCh38-2020-A-2.0.0
+expect-cells,5000
+create-bam,false
+
+[feature]
+reference,/home/ryockteng/Documents/ddelgadillo/SC3_sub3p_v3_feature_reference.csv
+
+[libraries]
+fastq_id,fastqs,feature_types,subsample_rate
+SC3_v3_NextGem_DI_CRISPR_A549_5K_gex,/home/ryockteng/Documents/ddelgadillo/SC3_v3_NextGem_DI_CRISPR_A549_5K/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p,Gene Expression,
+SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr,/home/ryockteng/Documents/ddelgadillo/SC3_v3_NextGem_DI_CRISPR_A549_5K/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p,CRISPR Guide Capture,
