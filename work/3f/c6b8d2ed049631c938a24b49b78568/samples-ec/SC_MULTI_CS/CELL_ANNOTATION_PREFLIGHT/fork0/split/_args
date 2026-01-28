@@ -1,0 +1,11 @@
+{
+    "cas_track_name": null,
+    "cell_annotation_model": null,
+    "cr_annotate_filtered_matrix": null,
+    "cr_annotate_sample_cloupe": null,
+    "is_cr_annotate": false,
+    "is_multi": true,
+    "reference_path": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/refdata-cellranger-arc-GRCh38-2020-A-2.0.0",
+    "skip_cell_annotation": true,
+    "tenx_cloud_token_path": null
+}

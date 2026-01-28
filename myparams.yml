@@ -1,0 +1,47 @@
+
+
+# ============================================
+# INPUT PATHS (REQUIRED)
+# ============================================
+genex_fastq: '/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p'
+crispr_fastq: '/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p'
+reference: '/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/refdata-cellranger-arc-GRCh38-2020-A-2.0.0'
+feature_reference: '/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_sub3p_v3_feature_reference.csv'
+
+# ============================================
+# SAMPLE IDs (REQUIRED - MUST MATCH YOUR FASTQ FILES!)
+# ============================================
+genex_sample_id: 'SC3_v3_NextGem_DI_CRISPR_A549_5K_gex'
+crispr_sample_id: 'SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr'
+
+# ============================================
+# OUTPUT CONFIGURATION
+# ============================================
+outdir: './results-nf'
+cellranger_id: 'samples-ec'
+
+# ============================================
+# CELL RANGER PARAMETERS
+# ============================================
+expect_cells: 5000
+create_bam: false
+cellranger_path: 'cellranger'
+
+# ============================================
+# RESOURCE ALLOCATION
+# ============================================
+max_cpus: 12
+max_memory: '15.GB'
+max_time: '48.h'
+
+# ============================================
+# PUBLISHING & QC OPTIONS
+# ============================================
+publish_dir_mode: 'copy'
+skip_fastqc: false
+skip_multiqc: false
+
+# ============================================
+# CONTAINER CONFIGURATION
+# ============================================
+container_registry: 'ddelgadillo'

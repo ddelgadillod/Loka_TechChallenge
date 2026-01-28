@@ -6,4 +6,6 @@
 cellranger_config.csv
 perturbseq.sh
 __test_crm.mro
-myparams.yml
+/.nextflow/
+/results-nf/
+

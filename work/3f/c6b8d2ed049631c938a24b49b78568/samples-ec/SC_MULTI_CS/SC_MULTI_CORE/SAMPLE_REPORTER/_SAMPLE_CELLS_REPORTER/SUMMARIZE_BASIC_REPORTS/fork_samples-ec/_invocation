@@ -1,0 +1,26 @@
+@include "rna/_basic_sc_rna_counter_stages.mro"
+
+call SUMMARIZE_BASIC_REPORTS(
+    sample                  = "samples-ec",
+    matrices_h5             = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/samples-ec_raw_feature_barcode_matrix.h5",
+    filtered_barcodes       = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/samples-ec_filtered_barcodes.csv",
+    per_barcode_metrics     = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/samples-ec_per_barcode_metrics.csv",
+    matrix_computer_summary = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/samples-ec_summary.json",
+    barcode_summary         = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/WRITE_BARCODE_SUMMARY/fork0/join-u821379e5c4/files/barcode_summary.h5",
+    recovered_cells         = {
+        per_gem_well: 5000,
+        per_sample:   null,
+    },
+    summary_jsons           = [
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/samples-ec_summary.json",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_REPORTER/_SAMPLE_CELLS_REPORTER/SUBSAMPLE_READS/fork_samples-ec/join-u821379e6a8/files/summary.json",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/_ASSIGN_TAGS/DETERMINE_SAMPLE_ASSIGNMENTS/fork0/join-u821379e5f4/files/samples-ec_summary.json",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/SUMMARIZE_ANALYSIS/fork_samples-ec/chnk0-u821379e7b7/files/summary.json",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/_CRISPR_ANALYZER/CALL_PROTOSPACERS/fork_samples-ec/join-u821379e6a9/files/protospacer_call_metrics_json.json",
+        null,
+        null,
+        null,
+    ],
+    sample_bcs_only         = true,
+    target_panel_summary    = null,
+)

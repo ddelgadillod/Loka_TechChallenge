@@ -1,0 +1,4 @@
+{
+    "kmeans_csv": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/join-u821379e77a/files/kmeans_csv",
+    "kmeans_h5": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/join-u821379e77a/files/kmeans_h5.h5"
+}

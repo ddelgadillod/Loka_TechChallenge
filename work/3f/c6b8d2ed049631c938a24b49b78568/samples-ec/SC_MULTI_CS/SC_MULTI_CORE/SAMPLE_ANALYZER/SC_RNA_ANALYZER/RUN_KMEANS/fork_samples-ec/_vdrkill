@@ -1,0 +1,50 @@
+{
+    "timestamp": "2026-01-28T05:40:34.746556654-05:00",
+    "paths": [
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk0-u821379e780/files/kmeans_csv",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk0-u821379e780/files/kmeans_h5.h5",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk1-u821379e780/files/kmeans_csv",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk1-u821379e780/files/kmeans_h5.h5",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk2-u821379e780/files/kmeans_csv",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk2-u821379e780/files/kmeans_h5.h5",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk3-u821379e780/files/kmeans_csv",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk3-u821379e780/files/kmeans_h5.h5",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk4-u821379e780/files/kmeans_csv",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk4-u821379e780/files/kmeans_h5.h5",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk5-u821379e780/files/kmeans_csv",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk5-u821379e780/files/kmeans_h5.h5",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk6-u821379e780/files/kmeans_csv",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk6-u821379e780/files/kmeans_h5.h5",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk7-u821379e780/files/kmeans_csv",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk7-u821379e780/files/kmeans_h5.h5",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk8-u821379e780/files/kmeans_csv",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/chnk8-u821379e780/files/kmeans_h5.h5",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/join-u821379e77a/files/kmeans_csv",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_KMEANS/fork_samples-ec/join-u821379e77a/files/kmeans_h5.h5"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2026-01-28T05:39:54.624355701-05:00",
+            "DeltaBytes": 5518
+        },
+        {
+            "Timestamp": "2026-01-28T05:40:22.966922476-05:00",
+            "DeltaBytes": 1327287
+        },
+        {
+            "Timestamp": "2026-01-28T05:40:29.0691861-05:00",
+            "DeltaBytes": 1216118
+        },
+        {
+            "Timestamp": "2026-01-28T05:40:33.968820475-05:00",
+            "DeltaBytes": -1284741
+        },
+        {
+            "Timestamp": "2026-01-28T05:40:34.746556654-05:00",
+            "DeltaBytes": -1205885
+        }
+    ],
+    "count": 56,
+    "size": 2490626
+}

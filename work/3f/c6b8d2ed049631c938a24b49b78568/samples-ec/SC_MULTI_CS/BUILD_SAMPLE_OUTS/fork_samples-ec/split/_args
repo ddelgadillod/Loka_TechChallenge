@@ -1,0 +1,30 @@
+{
+    "beam_analyzer": null,
+    "cell_types": null,
+    "cloupe": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SANITIZE_MAP_CALLS/fork0/chnk0-u821379e7d9/files/samples-ec_cell_annotation_sample_cloupe.cloupe",
+    "crispr_analysis": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SANITIZE_MAP_CALLS/fork0/chnk0-u821379e7d9/files/samples-ec_crispr_analysis",
+    "metrics_summary_csv": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/WRITE_MULTI_WEB_SUMMARY/fork0/join-u821379e7c7/files/samples-ec_metrics_summary.csv",
+    "output_per_sample_raw_matrix": false,
+    "rna_analysis": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SANITIZE_MAP_CALLS/fork0/chnk0-u821379e7d9/files/samples-ec_analysis_csv",
+    "sample_slfe_outs": {
+        "sample": "samples-ec",
+        "bam_file": null,
+        "bai_index_file": null,
+        "csi_index_file": null,
+        "molecule_info": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/molecule_info_samples-ec.h5",
+        "filtered_matrix_h5": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/samples-ec_filtered_feature_barcode_matrix.h5",
+        "raw_matrix_h5": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/samples-ec_raw_feature_barcode_matrix.h5",
+        "filtered_barcodes": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/samples-ec_filtered_barcodes.csv",
+        "aggregate_barcodes": null,
+        "per_probe_metrics": null,
+        "raw_probe_bc_matrix": null,
+        "filtered_matrix_mex": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/samples-ec_filtered_feature_barcode_matrix",
+        "raw_matrix_mex": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/samples-ec_raw_feature_barcode_matrix",
+        "metrics_summary": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/samples-ec_summary.json",
+        "per_barcode_metrics": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/samples-ec_per_barcode_metrics.csv"
+    },
+    "vdj_b_outs": null,
+    "vdj_t_gd_outs": null,
+    "vdj_t_outs": null,
+    "web_summary": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/WRITE_MULTI_WEB_SUMMARY/fork0/join-u821379e7c7/files/samples-ec_web_summary.html"
+}

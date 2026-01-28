@@ -1,0 +1,38 @@
+{
+    "vdj_b": {
+        "samples-ec": {
+            "antigen_specificity_scores": null,
+            "antigen_assignment": null,
+            "clonotype_concordance": null,
+            "exact_subclonotype_concordance": null,
+            "specificity_summary": null,
+            "antigen_vdj_metrics_json": null,
+            "antigen_vdj_metrics_bin": null,
+            "per_barcode": null
+        }
+    },
+    "vdj_t": {
+        "samples-ec": {
+            "antigen_specificity_scores": null,
+            "antigen_assignment": null,
+            "clonotype_concordance": null,
+            "exact_subclonotype_concordance": null,
+            "specificity_summary": null,
+            "antigen_vdj_metrics_json": null,
+            "antigen_vdj_metrics_bin": null,
+            "per_barcode": null
+        }
+    },
+    "vdj_t_gd": {
+        "samples-ec": {
+            "antigen_specificity_scores": null,
+            "antigen_assignment": null,
+            "clonotype_concordance": null,
+            "exact_subclonotype_concordance": null,
+            "specificity_summary": null,
+            "antigen_vdj_metrics_json": null,
+            "antigen_vdj_metrics_bin": null,
+            "per_barcode": null
+        }
+    }
+}

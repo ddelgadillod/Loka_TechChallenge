@@ -1,0 +1,20 @@
+{
+    "timestamp": "2026-01-28T05:40:56.364508487-05:00",
+    "paths": [
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/COMBINE_CLUSTERING/fork_samples-ec/chnk0-u821379e7a1/files/clustering_csv",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/COMBINE_CLUSTERING/fork_samples-ec/chnk0-u821379e7a1/files/clustering_h5.h5"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2026-01-28T05:40:33.989751944-05:00",
+            "DeltaBytes": 1382076
+        },
+        {
+            "Timestamp": "2026-01-28T05:40:56.364508487-05:00",
+            "DeltaBytes": -1376902
+        }
+    ],
+    "count": 22,
+    "size": 1376902
+}

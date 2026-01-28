@@ -1,0 +1,17 @@
+{
+    "__mem_gb": 4,
+    "__threads": 5,
+    "__vmem_gb": 32,
+    "feature_type": "CRISPR Guide Capture",
+    "input_dims": null,
+    "matrix_h5": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/PREPROCESS_MATRIX/fork_samples-ec/join-u821379e6af/files/preprocessed_matrix_h5.h5",
+    "max_dims": null,
+    "metric": null,
+    "min_dist": null,
+    "n_neighbors": null,
+    "parallel": false,
+    "random_seed": null,
+    "reduction_h5": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_PCA/fork_samples-ec/join-u821379e6ce/files/pca_h5.h5",
+    "reduction_type": "pca",
+    "umap_dims": 2
+}

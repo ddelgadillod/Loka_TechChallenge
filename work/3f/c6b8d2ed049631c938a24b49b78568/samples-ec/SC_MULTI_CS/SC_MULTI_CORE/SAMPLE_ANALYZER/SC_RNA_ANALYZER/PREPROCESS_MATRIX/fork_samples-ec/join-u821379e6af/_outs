@@ -1,0 +1,14 @@
+{
+    "cloupe_matrix_h5": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/PREPROCESS_MATRIX/fork_samples-ec/join-u821379e6af/files/cloupe_matrix_h5.h5",
+    "disable_correct_chemistry_batch": true,
+    "disable_hierarchical_clustering": true,
+    "disable_run_pca": false,
+    "is_antibody_only": false,
+    "is_multi_genome": false,
+    "preprocessed_matrix_h5": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/PREPROCESS_MATRIX/fork_samples-ec/join-u821379e6af/files/preprocessed_matrix_h5.h5",
+    "skip": false,
+    "skip_antibody_analysis": true,
+    "skip_antigen_analysis": true,
+    "skip_multigenome_analysis": false,
+    "skip_tsne": false
+}

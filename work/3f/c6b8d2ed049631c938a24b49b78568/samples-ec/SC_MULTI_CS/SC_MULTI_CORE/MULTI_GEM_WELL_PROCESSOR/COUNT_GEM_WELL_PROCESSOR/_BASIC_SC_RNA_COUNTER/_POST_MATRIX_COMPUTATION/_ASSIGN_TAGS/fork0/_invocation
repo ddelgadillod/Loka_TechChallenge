@@ -1,0 +1,98 @@
+@include "rna/_assign_tags.mro"
+
+call _ASSIGN_TAGS(
+    chemistry_defs            = {
+        "CRISPR Guide Capture": {
+            barcode: [
+                {
+                    kind:      "gel_bead",
+                    length:    16,
+                    offset:    0,
+                    read_type: "R1",
+                    whitelist: {
+                        name:                       "3M-february-2018_NXT",
+                        part:                       null,
+                        slide:                      null,
+                        strand:                     "+",
+                        translation:                true,
+                        translation_whitelist_path: null,
+                    },
+                },
+            ],
+            barcode_extraction: null,
+            description:        "Single Cell 3' v3 (CS1)",
+            endedness:          "three_prime",
+            name:               "SC3Pv3-CS1",
+            rna: {
+                length:     null,
+                min_length: null,
+                offset:     0,
+                read_type:  "R2",
+            },
+            rna2:               null,
+            strandedness:       "+",
+            umi: [
+                {
+                    length:     12,
+                    min_length: 10,
+                    offset:     16,
+                    read_type:  "R1",
+                    whitelist:  null,
+                },
+            ],
+        },
+        "Gene Expression": {
+            barcode: [
+                {
+                    kind:      "gel_bead",
+                    length:    16,
+                    offset:    0,
+                    read_type: "R1",
+                    whitelist: {
+                        name:                       "3M-february-2018_TRU",
+                        part:                       null,
+                        slide:                      null,
+                        strand:                     "+",
+                        translation:                false,
+                        translation_whitelist_path: null,
+                    },
+                },
+            ],
+            barcode_extraction: null,
+            description:        "Single Cell 3' v3 (polyA)",
+            endedness:          "three_prime",
+            name:               "SC3Pv3-polyA",
+            rna: {
+                length:     null,
+                min_length: null,
+                offset:     0,
+                read_type:  "R2",
+            },
+            rna2:               null,
+            strandedness:       "+",
+            umi: [
+                {
+                    length:     12,
+                    min_length: 10,
+                    offset:     16,
+                    read_type:  "R1",
+                    whitelist:  null,
+                },
+            ],
+        },
+    },
+    filtered_barcodes         = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/FILTER_BARCODES/fork0/join-u821379e5ca/files/filtered_barcodes.csv",
+    filtered_feature_counts_matrix = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/FILTER_BARCODES/fork0/join-u821379e5ca/files/filtered_matrices_h5.h5",
+    raw_feature_bc_matrix     = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/WRITE_H5_MATRIX/fork0/join-u821379e5c4/files/raw_feature_bc_matrix.h5",
+    molecule_info             = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/_CELLS_REPORTER/WRITE_MOLECULE_INFO/fork0/join-u821379e5ea/files/molecule_info_non_multiplexed.h5",
+    force_sample_barcodes     = {
+        cells_per_tag:        null,
+        non_singlet_barcodes: null,
+        sample_barcodes:      null,
+    },
+    multi_graph               = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/CREATE_MULTI_GRAPH/fork0/chnk0-u821379de5e/files/multi_graph.json",
+    gem_well                  = 1,
+    min_assignment_confidence = null,
+    inferred_throughput       = "MT",
+    inferred_throughputs      = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/INFER_GEM_WELL_THROUGHPUT/fork0/chnk0-u821379e5ea/files/inferred_throughputs.json",
+)

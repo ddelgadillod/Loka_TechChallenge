@@ -1,0 +1,66 @@
+2026-01-28 05:40:17 [time] __start__
+2026-01-28 05:40:17 [cr_ana::stages::graph_clustering] Decided to not sketch because args.sketch=false, SKETCH_SAMPLE_SIZE=500000, number of rows in proj=5645
+2026-01-28 05:40:17 [cr_ana::stages::graph_clustering] computing k-nearest neighbors with k = 220
+2026-01-28 05:40:17 [scan_rs::nn] constructing ball tree of 5645 points
+2026-01-28 05:40:17 [scan_rs::nn] querying points for 220 neighbors
+2026-01-28 05:40:18 [cr_ana::stages::graph_clustering] running louvain
+2026-01-28 05:40:18 [cr_ana::louvain] building network for neighbor matrix of shape: (5645,220)
+2026-01-28 05:40:18 [cr_ana::louvain] louvain starting cpm score: -0.000193
+2026-01-28 05:40:18 [cr_ana::louvain]   iteration 0
+2026-01-28 05:40:18 [cr_ana::louvain]     cpm score: 0.434650
+2026-01-28 05:40:18 [cr_ana::louvain]   iteration 1
+2026-01-28 05:40:18 [cr_ana::louvain]     cpm score: 0.481183
+2026-01-28 05:40:18 [cr_ana::louvain]   iteration 2
+2026-01-28 05:40:18 [cr_ana::louvain]     cpm score: 0.486834
+2026-01-28 05:40:18 [cr_ana::louvain]   iteration 3
+2026-01-28 05:40:18 [cr_ana::louvain]     cpm score: 0.491215
+2026-01-28 05:40:18 [cr_ana::louvain]   iteration 4
+2026-01-28 05:40:18 [cr_ana::louvain]     cpm score: 0.501056
+2026-01-28 05:40:18 [cr_ana::louvain]   iteration 5
+2026-01-28 05:40:18 [cr_ana::louvain]     cpm score: 0.504945
+2026-01-28 05:40:18 [cr_ana::louvain]   iteration 6
+2026-01-28 05:40:18 [cr_ana::louvain]     cpm score: 0.505541
+2026-01-28 05:40:18 [cr_ana::louvain]   iteration 7
+2026-01-28 05:40:18 [cr_ana::louvain]     cpm score: 0.506202
+2026-01-28 05:40:18 [cr_ana::louvain]   iteration 8
+2026-01-28 05:40:18 [cr_ana::louvain]     cpm score: 0.507019
+2026-01-28 05:40:18 [cr_ana::louvain]   iteration 9
+2026-01-28 05:40:18 [cr_ana::louvain]     cpm score: 0.508104
+2026-01-28 05:40:18 [cr_ana::louvain]   iteration 10
+2026-01-28 05:40:18 [cr_ana::louvain]     cpm score: 0.511223
+2026-01-28 05:40:18 [cr_ana::louvain]   iteration 11
+2026-01-28 05:40:18 [cr_ana::louvain]     cpm score: 0.515714
+2026-01-28 05:40:19 [cr_ana::louvain]   iteration 12
+2026-01-28 05:40:19 [cr_ana::louvain]     cpm score: 0.516130
+2026-01-28 05:40:19 [cr_ana::louvain]   iteration 13
+2026-01-28 05:40:19 [cr_ana::louvain]     cpm score: 0.516274
+2026-01-28 05:40:19 [cr_ana::louvain]   iteration 14
+2026-01-28 05:40:19 [cr_ana::louvain]     cpm score: 0.516296
+2026-01-28 05:40:19 [cr_ana::louvain]   iteration 15
+2026-01-28 05:40:19 [cr_ana::louvain]     cpm score: 0.516352
+2026-01-28 05:40:19 [cr_ana::louvain]   iteration 16
+2026-01-28 05:40:19 [cr_ana::louvain]     cpm score: 0.516424
+2026-01-28 05:40:19 [cr_ana::louvain]   iteration 17
+2026-01-28 05:40:19 [cr_ana::louvain]     cpm score: 0.516520
+2026-01-28 05:40:19 [cr_ana::louvain]   iteration 18
+2026-01-28 05:40:19 [cr_ana::louvain]     cpm score: 0.516575
+2026-01-28 05:40:19 [cr_ana::louvain]   iteration 19
+2026-01-28 05:40:19 [cr_ana::louvain]     cpm score: 0.516596
+2026-01-28 05:40:19 [cr_ana::louvain]   iteration 20
+2026-01-28 05:40:19 [cr_ana::louvain]     cpm score: 0.516598
+2026-01-28 05:40:19 [cr_ana::louvain]   iteration 21
+2026-01-28 05:40:19 [cr_ana::louvain]     cpm score: 0.516601
+2026-01-28 05:40:19 [cr_ana::louvain]   iteration 22
+2026-01-28 05:40:19 [cr_ana::louvain]     cpm score: 0.516602
+2026-01-28 05:40:19 [cr_ana::louvain] louvain optimized in 23 iterations
+2026-01-28 05:40:19 [cr_ana::louvain] louvain final cpm score: 0.516602
+2026-01-28 05:40:19 [cr_ana::stages::graph_clustering] merging clusters
+2026-01-28 05:40:19 [cr_ana::stages::graph_clustering] cluster labels: {4, 0, 6, 3, 1, 5, 2}
+2026-01-28 05:40:19 [scan_rs::merge_clusters] computing DE params on 19239 x 1779 matrix
+2026-01-28 05:40:19 [scan_rs::merge_clusters] computing DE on 901 vs 878 cells
+2026-01-28 05:40:19 [scan_rs::merge_clusters] found 0 DE genes, merging clusters 3 and 4.
+2026-01-28 05:40:19 [scan_rs::merge_clusters] computing DE params on 19239 x 1748 matrix
+2026-01-28 05:40:19 [scan_rs::merge_clusters] computing DE on 1113 vs 635 cells
+2026-01-28 05:40:20 [scan_rs::merge_clusters] computing DE params on 19239 x 1021 matrix
+2026-01-28 05:40:20 [scan_rs::merge_clusters] computing DE on 556 vs 465 cells
+2026-01-28 05:40:20 [time] __end__

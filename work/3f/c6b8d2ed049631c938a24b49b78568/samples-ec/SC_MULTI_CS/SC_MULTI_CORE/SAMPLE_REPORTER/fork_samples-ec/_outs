@@ -1,0 +1,7 @@
+{
+    "cloupe": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_REPORTER/APPEND_CELL_TYPES_CLOUPE/fork_samples-ec/chnk0-u821379e7d8/files/cell_annotation_sample_cloupe.cloupe",
+    "metrics_summary": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_REPORTER/_SAMPLE_CELLS_REPORTER/SUMMARIZE_BASIC_REPORTS/fork_samples-ec/join-u821379e7b8/files/summary.json",
+    "sample_library_to_barcode_rank": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_REPORTER/GENERATE_SAMPLE_PLOTS/fork_samples-ec/join-u821379e7b8/files/sample_library_to_barcode_rank.json",
+    "sample_projection_plots": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_REPORTER/GENERATE_SAMPLE_PLOTS/fork_samples-ec/join-u821379e7b8/files/sample_projection_plots.json",
+    "sample_treemap_plots": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_REPORTER/GENERATE_SAMPLE_PLOTS/fork_samples-ec/join-u821379e7b8/files/sample_treemap_plots.json"
+}

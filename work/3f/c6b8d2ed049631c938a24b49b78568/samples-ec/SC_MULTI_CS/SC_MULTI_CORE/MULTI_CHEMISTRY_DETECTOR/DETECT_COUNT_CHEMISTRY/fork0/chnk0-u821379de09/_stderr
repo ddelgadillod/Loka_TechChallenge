@@ -1,0 +1,11 @@
+[stderr]
+[cr_types/src/sample_def.rs:167:21] &self.parse_sample_names() = Some(
+    [
+        "SC3_v3_NextGem_DI_CRISPR_A549_5K_gex",
+    ],
+)
+[cr_types/src/sample_def.rs:167:21] &self.parse_sample_names() = Some(
+    [
+        "SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr",
+    ],
+)

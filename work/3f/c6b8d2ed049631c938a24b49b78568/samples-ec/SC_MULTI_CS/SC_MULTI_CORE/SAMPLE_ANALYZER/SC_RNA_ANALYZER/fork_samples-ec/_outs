@@ -1,0 +1,12 @@
+{
+    "antibody_analyzer": null,
+    "antigen_analyzer": null,
+    "clustering_h5": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/COMBINE_CLUSTERING/fork_samples-ec/chnk0-u821379e7a1/files/clustering_h5.h5",
+    "common_analyzer": {
+        "analysis": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/SUMMARIZE_ANALYSIS/fork_samples-ec/chnk0-u821379e7b7/files/analysis",
+        "analysis_csv": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/SUMMARIZE_ANALYSIS/fork_samples-ec/chnk0-u821379e7b7/files/analysis_csv",
+        "cloupe_matrix_h5": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/PREPROCESS_MATRIX/fork_samples-ec/join-u821379e6af/files/cloupe_matrix_h5.h5",
+        "skip_tsne": false,
+        "summary": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/SUMMARIZE_ANALYSIS/fork_samples-ec/chnk0-u821379e7b7/files/summary.json"
+    }
+}

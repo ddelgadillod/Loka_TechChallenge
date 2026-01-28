@@ -1,0 +1,24 @@
+{
+    "timestamp": "2026-01-28T05:39:46.466675557-05:00",
+    "paths": [
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_REPORTER/SUMMARIZE_REPORTS/fork0/join-u821379e6c7/files/metrics_summary_csv.csv",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_REPORTER/SUMMARIZE_REPORTS/fork0/join-u821379e6c7/files/web_summary.html"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2026-01-28T05:36:55.484131697-05:00",
+            "DeltaBytes": 9109
+        },
+        {
+            "Timestamp": "2026-01-28T05:39:39.476981398-05:00",
+            "DeltaBytes": 4517991
+        },
+        {
+            "Timestamp": "2026-01-28T05:39:46.466675557-05:00",
+            "DeltaBytes": -4281329
+        }
+    ],
+    "count": 2,
+    "size": 4281329
+}

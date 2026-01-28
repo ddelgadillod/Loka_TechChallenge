@@ -1,0 +1,36 @@
+{
+    "timestamp": "2026-01-28T05:40:56.361129531-05:00",
+    "paths": [
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_TSNE/fork_samples-ec/chnk0-u821379e77a/files/tsne_csv",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_TSNE/fork_samples-ec/chnk0-u821379e77a/files/tsne_h5.h5",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_TSNE/fork_samples-ec/chnk1-u821379e77a/files/tsne_csv",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_TSNE/fork_samples-ec/chnk1-u821379e77a/files/tsne_h5.h5",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_TSNE/fork_samples-ec/join-u821379e77a/files/tsne_csv",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_TSNE/fork_samples-ec/join-u821379e77a/files/tsne_h5.h5"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2026-01-28T05:39:54.621673285-05:00",
+            "DeltaBytes": 4107
+        },
+        {
+            "Timestamp": "2026-01-28T05:39:58.058242597-05:00",
+            "DeltaBytes": 864222
+        },
+        {
+            "Timestamp": "2026-01-28T05:40:22.963905531-05:00",
+            "DeltaBytes": 849808
+        },
+        {
+            "Timestamp": "2026-01-28T05:40:23.131098141-05:00",
+            "DeltaBytes": -851736
+        },
+        {
+            "Timestamp": "2026-01-28T05:40:56.361129531-05:00",
+            "DeltaBytes": -844176
+        }
+    ],
+    "count": 14,
+    "size": 1695912
+}

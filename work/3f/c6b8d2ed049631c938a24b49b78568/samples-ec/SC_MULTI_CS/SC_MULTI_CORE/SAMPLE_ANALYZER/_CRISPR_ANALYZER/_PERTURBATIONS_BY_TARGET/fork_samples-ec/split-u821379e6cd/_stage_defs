@@ -1,0 +1,10 @@
+{
+    "chunks": [
+        {
+            "chunk_start": 0,
+            "chunk_end": 45,
+            "__mem_gb": 2.5,
+            "__threads": 4
+        }
+    ]
+}

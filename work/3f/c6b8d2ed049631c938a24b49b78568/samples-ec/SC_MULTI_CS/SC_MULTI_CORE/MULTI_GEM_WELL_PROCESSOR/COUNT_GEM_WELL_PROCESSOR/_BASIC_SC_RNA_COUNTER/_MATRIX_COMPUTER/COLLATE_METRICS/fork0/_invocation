@@ -1,0 +1,23 @@
+@include "rna/_cr_lib_stages.mro"
+
+call COLLATE_METRICS(
+    per_barcode_metrics      = ["/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/ALIGN_AND_COUNT/fork0/chnk0-u821379ded6/files/metrics_shard.bmsf"],
+    reference_info           = {
+        genomes: ["GRCh38"],
+        transcriptome_info: {
+            fasta_hash:        "b6f131840f9f337e7b858c3d1e89d7ce0321b243",
+            gtf_hash:          "",
+            gtf_hash_gz:       "3b4c36ca3bade222a5b53394e8c07a18db7ebb11",
+            input_fasta_files: ["Homo_sapiens.GRCh38.dna.primary_assembly.fa.modified"],
+            input_gtf_files:   ["gencode.v32.primary_assembly.annotation.gtf.filtered"],
+            mem_gb:            16,
+            mkref_version:     "cellranger-arc-2.0.0",
+            reference_path:    "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/refdata-cellranger-arc-GRCh38-2020-A-2.0.0",
+        },
+        version: "2020-A",
+    },
+    feature_reference_binary = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/MAKE_SHARD/fork0/split-u821379de76/files/feature_reference.frf.bincode",
+    filtered_barcodes        = null,
+    aggregate_barcodes       = null,
+    sample_barcodes          = null,
+)

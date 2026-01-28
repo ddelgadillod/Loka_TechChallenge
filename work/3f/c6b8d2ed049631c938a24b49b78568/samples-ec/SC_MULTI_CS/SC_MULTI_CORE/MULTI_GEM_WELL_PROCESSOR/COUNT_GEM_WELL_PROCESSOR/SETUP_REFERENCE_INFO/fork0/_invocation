@@ -1,0 +1,6 @@
+@include "rna/_cr_lib_stages.mro"
+
+call SETUP_REFERENCE_INFO(
+    reference_path = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/refdata-cellranger-arc-GRCh38-2020-A-2.0.0",
+    target_set     = null,
+)

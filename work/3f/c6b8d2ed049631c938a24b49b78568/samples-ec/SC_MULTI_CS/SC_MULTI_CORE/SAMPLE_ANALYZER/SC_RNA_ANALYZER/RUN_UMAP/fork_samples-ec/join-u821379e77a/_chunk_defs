@@ -1,0 +1,10 @@
+[
+    {
+        "feature_type": "Gene Expression",
+        "umap_dims": 2
+    },
+    {
+        "feature_type": "CRISPR Guide Capture",
+        "umap_dims": 2
+    }
+]

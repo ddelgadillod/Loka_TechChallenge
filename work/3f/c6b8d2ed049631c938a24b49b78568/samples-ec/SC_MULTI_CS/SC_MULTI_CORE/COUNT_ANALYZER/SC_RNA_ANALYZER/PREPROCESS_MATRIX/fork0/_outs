@@ -1,0 +1,14 @@
+{
+    "cloupe_matrix_h5": null,
+    "disable_correct_chemistry_batch": null,
+    "disable_hierarchical_clustering": null,
+    "disable_run_pca": null,
+    "is_antibody_only": null,
+    "is_multi_genome": null,
+    "preprocessed_matrix_h5": null,
+    "skip": null,
+    "skip_antibody_analysis": null,
+    "skip_antigen_analysis": null,
+    "skip_multigenome_analysis": null,
+    "skip_tsne": null
+}

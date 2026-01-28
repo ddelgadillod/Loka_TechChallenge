@@ -1,0 +1,15 @@
+@include "rna/_cr_ana_stages.mro"
+
+call RUN_TSNE(
+    matrix_h5       = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/PREPROCESS_MATRIX/fork_samples-ec/join-u821379e6af/files/preprocessed_matrix_h5.h5",
+    reduction_h5    = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/SC_RNA_ANALYZER/RUN_PCA/fork_samples-ec/join-u821379e6ce/files/pca_h5.h5",
+    random_seed     = null,
+    perplexity      = null,
+    input_dims      = null,
+    max_dims        = null,
+    max_iter        = null,
+    stop_lying_iter = null,
+    mom_switch_iter = null,
+    theta           = null,
+    reduction_type  = "pca",
+)

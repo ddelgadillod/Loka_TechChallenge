@@ -1,0 +1,24 @@
+{
+    "timestamp": "2026-01-28T05:36:24.897117203-05:00",
+    "paths": [
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/MULTI_WRITE_PER_SAMPLE_MOLECULE_INFO/fork0/join-u821379e609/files/molecule_info_samples-ec.h5",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/MULTI_WRITE_PER_SAMPLE_MOLECULE_INFO/fork0/join-u821379e609/files/samples-ec_summary.json"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2026-01-28T05:33:45.646521378-05:00",
+            "DeltaBytes": 33231
+        },
+        {
+            "Timestamp": "2026-01-28T05:36:17.853174895-05:00",
+            "DeltaBytes": 34305551
+        },
+        {
+            "Timestamp": "2026-01-28T05:36:24.897117203-05:00",
+            "DeltaBytes": -34271556
+        }
+    ],
+    "count": 2,
+    "size": 34271556
+}

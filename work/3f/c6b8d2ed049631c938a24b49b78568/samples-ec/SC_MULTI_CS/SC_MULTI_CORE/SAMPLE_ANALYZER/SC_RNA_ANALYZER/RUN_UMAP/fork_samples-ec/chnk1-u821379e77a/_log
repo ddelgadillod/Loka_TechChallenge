@@ -1,0 +1,26 @@
+2026-01-28 05:40:07 [time] __start__
+2026-01-28 05:40:07 [umap_rs::fuzzy] >>>>>>non_zero rows counts 231058
+2026-01-28 05:40:07 [umap_rs::embedding] initialization for 5645 samples took 0.018s
+2026-01-28 05:40:07 [umap_rs::embedding] The 1th eigenvalue estimation did not converge!
+2026-01-28 05:40:07 [umap_rs::embedding] Too large deviation of residual norm: 0.0002744651436949671 > 1e-5
+2026-01-28 05:40:07 [umap_rs::embedding] The 2th eigenvalue estimation did not converge!
+2026-01-28 05:40:07 [umap_rs::embedding] Too large deviation of residual norm: 0.0019853974363274194 > 1e-5
+2026-01-28 05:40:07 [umap_rs::curve_fit] >>>>iterations 1
+2026-01-28 05:40:07 [umap_rs::curve_fit] >>>>iterations 2
+2026-01-28 05:40:07 [umap_rs::curve_fit] >>>>iterations 3
+2026-01-28 05:40:07 [umap_rs::curve_fit] >>>>iterations 4
+2026-01-28 05:40:07 [umap_rs::curve_fit] >>>>iterations 5
+2026-01-28 05:40:07 [umap_rs::curve_fit] >>>>iterations 6
+2026-01-28 05:40:07 [umap_rs::curve_fit] >>>>iterations 7
+2026-01-28 05:40:07 [umap_rs::curve_fit] >>>>iterations 8
+2026-01-28 05:40:07 [umap_rs::curve_fit] >>>>iterations 9
+2026-01-28 05:40:07 [umap_rs::curve_fit] >>>>iterations 10
+2026-01-28 05:40:07 [umap_rs::curve_fit] 	 #Chi2:	0.065547
+2026-01-28 05:40:07 [umap_rs::curve_fit] 	 #Red. Chi2:	0.000220
+2026-01-28 05:40:07 [umap_rs::curve_fit] 	 #R2:	0.997757
+2026-01-28 05:40:07 [umap_rs::curve_fit] 	 #Func. Evaluations:	10
+2026-01-28 05:40:07 [umap_rs::curve_fit] 	 #Converged by:	Parameters converged
+2026-01-28 05:40:07 [umap_rs::curve_fit] ---- Parameters ----
+2026-01-28 05:40:07 [umap_rs::curve_fit] 0.99214646 +/- 0.00565483 (0.57 %)	(init: 2)
+2026-01-28 05:40:07 [umap_rs::curve_fit] 1.11200188 +/- 0.00583577 (0.52 %)	(init: 1)
+2026-01-28 05:40:22 [time] __end__

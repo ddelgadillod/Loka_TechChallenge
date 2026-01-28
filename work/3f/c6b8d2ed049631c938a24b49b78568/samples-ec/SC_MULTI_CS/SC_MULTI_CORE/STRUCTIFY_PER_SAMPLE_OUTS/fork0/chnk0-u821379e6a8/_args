@@ -1,0 +1,37 @@
+{
+    "__mem_gb": 1,
+    "__threads": 1,
+    "__vmem_gb": 4,
+    "feature_reference": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/PARSE_MULTI_CONFIG/fork0/chnk0-u821379ddf2/files/feature_ref.csv",
+    "multi_graph": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/CREATE_MULTI_GRAPH/fork0/chnk0-u821379de5e/files/multi_graph.json",
+    "probe_set": null,
+    "sample_bams": null,
+    "sample_matrices": [
+        {
+            "sample": "samples-ec",
+            "filtered_matrix_h5": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/MULTI_WRITE_PER_SAMPLE_MATRICES/fork0/chnk0-u821379e608/files/samples-ec_filtered_feature_barcode_matrix.h5",
+            "filtered_matrix_mex": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/MULTI_WRITE_PER_SAMPLE_MATRICES/fork0/chnk0-u821379e608/files/samples-ec_filtered_feature_barcode_matrix",
+            "raw_matrix_h5": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/MULTI_WRITE_PER_SAMPLE_MATRICES/fork0/chnk0-u821379e608/files/samples-ec_raw_feature_barcode_matrix.h5",
+            "raw_matrix_mex": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/MULTI_WRITE_PER_SAMPLE_MATRICES/fork0/chnk0-u821379e608/files/samples-ec_raw_feature_barcode_matrix",
+            "raw_probe_bc_matrix": null,
+            "per_probe_metrics": null,
+            "filtered_barcodes": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/MULTI_WRITE_PER_SAMPLE_MATRICES/fork0/chnk0-u821379e608/files/samples-ec_filtered_barcodes.csv",
+            "aggregate_barcodes": null
+        }
+    ],
+    "sample_metrics": [
+        {
+            "per_barcode_metrics": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/MULTI_COLLATE_PER_SAMPLE_METRICS/fork0/chnk0-u821379e605/files/per_barcode_metrics.csv",
+            "sample": "samples-ec",
+            "summary": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/MULTI_COLLATE_PER_SAMPLE_METRICS/fork0/chnk0-u821379e605/files/summary.json"
+        }
+    ],
+    "sample_molecule_infos": [
+        {
+            "h5_file": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/MULTI_WRITE_PER_SAMPLE_MOLECULE_INFO/fork0/join-u821379e609/files/molecule_info_samples-ec.h5",
+            "sample": "samples-ec",
+            "summary": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/MULTI_WRITE_PER_SAMPLE_MOLECULE_INFO/fork0/join-u821379e609/files/samples-ec_summary.json"
+        }
+    ],
+    "target_panel": null
+}

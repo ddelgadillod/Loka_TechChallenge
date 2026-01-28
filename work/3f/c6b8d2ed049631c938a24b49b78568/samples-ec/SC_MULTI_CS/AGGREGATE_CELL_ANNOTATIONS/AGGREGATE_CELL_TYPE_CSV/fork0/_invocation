@@ -1,0 +1,7 @@
+@include "rna/cell_annotation_service.mro"
+
+call AGGREGATE_CELL_TYPE_CSV(
+    cell_types = {
+        "samples-ec": null,
+    },
+)

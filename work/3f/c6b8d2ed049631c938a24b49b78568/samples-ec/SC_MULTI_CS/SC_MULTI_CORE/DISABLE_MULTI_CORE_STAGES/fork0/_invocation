@@ -1,0 +1,10 @@
+@include "rna/_sc_multi_defs.mro"
+
+call DISABLE_MULTI_CORE_STAGES(
+    is_pd                 = false,
+    disable_gex           = false,
+    disable_multi_count   = false,
+    disable_count         = false,
+    no_secondary_analysis = false,
+    skip_cell_annotation  = true,
+)

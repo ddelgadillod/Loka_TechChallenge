@@ -1,0 +1,14 @@
+{
+    "library_web_summary": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/WRITE_MULTI_WEB_SUMMARY/fork0/join-u821379e7c7/files/samples-ec_web_summary.html",
+    "metrics_summary_csv": {
+        "samples-ec": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/WRITE_MULTI_WEB_SUMMARY/fork0/join-u821379e7c7/files/samples-ec_metrics_summary.csv"
+    },
+    "qc_library_metrics": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/WRITE_MULTI_WEB_SUMMARY/fork0/join-u821379e7c7/files/qc_library_metrics.csv",
+    "qc_sample_metrics": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/WRITE_MULTI_WEB_SUMMARY/fork0/join-u821379e7c7/files/qc_sample_metrics.csv",
+    "web_summary": {
+        "samples-ec": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/WRITE_MULTI_WEB_SUMMARY/fork0/join-u821379e7c7/files/samples-ec_web_summary.html"
+    },
+    "web_summary_json": {
+        "samples-ec": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/WRITE_MULTI_WEB_SUMMARY/fork0/join-u821379e7c7/files/samples-ec_web_summary_data.json"
+    }
+}

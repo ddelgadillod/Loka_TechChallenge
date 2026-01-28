@@ -1,0 +1,28 @@
+{
+    "timestamp": "2026-01-28T05:36:39.491813119-05:00",
+    "paths": [
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/COLLATE_METRICS/fork0/chnk0-u821379e5c4/files/summary.json",
+        "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/COLLATE_METRICS/fork0/chnk0-u821379e5c4/files/per_barcode_metrics.csv"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2026-01-28T05:32:36.448700755-05:00",
+            "DeltaBytes": 9727294
+        },
+        {
+            "Timestamp": "2026-01-28T05:32:40.786688384-05:00",
+            "DeltaBytes": 6187
+        },
+        {
+            "Timestamp": "2026-01-28T05:32:50.481802181-05:00",
+            "DeltaBytes": -5573
+        },
+        {
+            "Timestamp": "2026-01-28T05:36:39.491813119-05:00",
+            "DeltaBytes": -9711190
+        }
+    ],
+    "count": 2,
+    "size": 9716763
+}

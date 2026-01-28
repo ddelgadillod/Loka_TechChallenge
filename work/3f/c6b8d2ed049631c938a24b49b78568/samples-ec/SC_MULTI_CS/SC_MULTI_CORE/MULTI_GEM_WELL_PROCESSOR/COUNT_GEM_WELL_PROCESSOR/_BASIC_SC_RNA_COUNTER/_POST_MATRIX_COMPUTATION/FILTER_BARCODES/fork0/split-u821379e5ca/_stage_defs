@@ -1,0 +1,11 @@
+{
+    "chunks": [
+        {
+            "probe_bc_def": null,
+            "__mem_gb": 9.7
+        }
+    ],
+    "join": {
+        "__mem_gb": 6
+    }
+}

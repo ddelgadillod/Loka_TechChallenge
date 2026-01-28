@@ -1,0 +1,49 @@
+Category,Library Type,Grouped By,Group Name,Metric Name,Metric Value
+Cells,CRISPR Guide Capture,,,Cells,5645
+Cells,CRISPR Guide Capture,,,Cells with one or more protospacers detected,0.7939769707705935
+Cells,CRISPR Guide Capture,,,Cells with two or more protospacers detected,0.18724534986713903
+Cells,CRISPR Guide Capture,,,Fraction guide reads,0.7935660320540178
+Cells,CRISPR Guide Capture,,,Fraction protospacer not recognized,0.03323607769609367
+Cells,CRISPR Guide Capture,,,Fraction reads with putative protospacer sequence,0.820847793081543
+Cells,CRISPR Guide Capture,,,Mean guide reads usable per cell,358
+Cells,CRISPR Guide Capture,,,Median UMI counts per cell,161
+Cells,CRISPR Guide Capture,,,Number of reads in cells,2547013
+Cells,Gene Expression,,,Cells,5645
+Cells,Gene Expression,,,Confidently mapped reads in cells,0.8357400599819919
+Cells,Gene Expression,,,Median UMI counts per cell,439
+Cells,Gene Expression,,,Median genes per cell,341
+Cells,Gene Expression,,,Total genes detected,19146
+Library,CRISPR Guide Capture,Fastq ID,SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr,Number of reads,3643283
+Library,CRISPR Guide Capture,Fastq ID,SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr,Q30 RNA read,0.9302329673748619
+Library,CRISPR Guide Capture,Fastq ID,SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr,Q30 UMI,0.9479714901859846
+Library,CRISPR Guide Capture,Fastq ID,SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr,Q30 barcodes,0.9458013350126796
+Library,CRISPR Guide Capture,Physical library ID,CGC_1,Cells,5645
+Library,CRISPR Guide Capture,Physical library ID,CGC_1,Fraction guide reads,0.7551625827584626
+Library,CRISPR Guide Capture,Physical library ID,CGC_1,Fraction guide reads usable,0.5544652995663527
+Library,CRISPR Guide Capture,Physical library ID,CGC_1,Fraction protospacer not recognized,0.03523043307960511
+Library,CRISPR Guide Capture,Physical library ID,CGC_1,Fraction reads with putative protospacer sequence,0.7827388100238164
+Library,CRISPR Guide Capture,Physical library ID,CGC_1,Guide reads in cells,0.738569501779997
+Library,CRISPR Guide Capture,Physical library ID,CGC_1,Mean reads per cell,645
+Library,CRISPR Guide Capture,Physical library ID,CGC_1,Number of reads,3643283
+Library,CRISPR Guide Capture,Physical library ID,CGC_1,Sequencing saturation,0.11556470893201276
+Library,CRISPR Guide Capture,Physical library ID,CGC_1,Valid UMI Sequences,0.9993434493010837
+Library,CRISPR Guide Capture,Physical library ID,CGC_1,Valid barcodes,0.9712221092898904
+Library,Gene Expression,Fastq ID,SC3_v3_NextGem_DI_CRISPR_A549_5K_gex,Number of reads,3773699
+Library,Gene Expression,Fastq ID,SC3_v3_NextGem_DI_CRISPR_A549_5K_gex,Q30 RNA read,0.9039506614544811
+Library,Gene Expression,Fastq ID,SC3_v3_NextGem_DI_CRISPR_A549_5K_gex,Q30 UMI,0.9228387760111217
+Library,Gene Expression,Fastq ID,SC3_v3_NextGem_DI_CRISPR_A549_5K_gex,Q30 barcodes,0.9341482282221325
+Library,Gene Expression,Physical library ID,GEX_1,Cells,5645
+Library,Gene Expression,Physical library ID,GEX_1,Confidently mapped antisense,0.05015794847442787
+Library,Gene Expression,Physical library ID,GEX_1,Confidently mapped reads in cells,0.8357400599819919
+Library,Gene Expression,Physical library ID,GEX_1,Confidently mapped to exonic regions,0.7225658432217302
+Library,Gene Expression,Physical library ID,GEX_1,Confidently mapped to genome,0.948937368878652
+Library,Gene Expression,Physical library ID,GEX_1,Confidently mapped to intergenic regions,0.05886744014294728
+Library,Gene Expression,Physical library ID,GEX_1,Confidently mapped to intronic regions,0.1675040855139745
+Library,Gene Expression,Physical library ID,GEX_1,Confidently mapped to transcriptome,0.8339260762450847
+Library,Gene Expression,Physical library ID,GEX_1,Mapped to genome,0.9752221891571108
+Library,Gene Expression,Physical library ID,GEX_1,Mean reads per cell,669
+Library,Gene Expression,Physical library ID,GEX_1,Number of reads,3773699
+Library,Gene Expression,Physical library ID,GEX_1,Number of reads in the library,3773699
+Library,Gene Expression,Physical library ID,GEX_1,Sequencing saturation,0.003146749556969514
+Library,Gene Expression,Physical library ID,GEX_1,Valid UMI Sequences,0.9996056919219048
+Library,Gene Expression,Physical library ID,GEX_1,Valid barcodes,0.9822240724551692

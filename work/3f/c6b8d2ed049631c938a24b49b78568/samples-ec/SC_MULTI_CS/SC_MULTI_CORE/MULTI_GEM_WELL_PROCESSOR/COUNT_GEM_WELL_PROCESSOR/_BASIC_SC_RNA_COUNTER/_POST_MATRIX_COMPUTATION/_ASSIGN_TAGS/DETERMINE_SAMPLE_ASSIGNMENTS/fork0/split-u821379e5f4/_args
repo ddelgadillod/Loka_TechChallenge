@@ -1,0 +1,17 @@
+{
+    "barcodes_per_tag": [
+        null,
+        null,
+        null
+    ],
+    "filtered_barcodes": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/FILTER_BARCODES/fork0/join-u821379e5ca/files/filtered_barcodes.csv",
+    "force_sample_barcodes": {
+        "cells_per_tag": null,
+        "non_singlet_barcodes": null,
+        "sample_barcodes": null
+    },
+    "gem_well": 1,
+    "multi_graph": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/CREATE_MULTI_GRAPH/fork0/chnk0-u821379de5e/files/multi_graph.json",
+    "non_singlet_barcodes": null,
+    "raw_feature_bc_matrix": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/WRITE_H5_MATRIX/fork0/join-u821379e5c4/files/raw_feature_bc_matrix.h5"
+}

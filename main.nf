@@ -4,16 +4,11 @@ nextflow.enable.dsl=2
 
 /*
 ========================================================================================
-    GeneXOmics Perturb-seq Pipeline - Nextflow Implementation
+    Perturb-seq Pipeline - Enhanced with Sample ID Parameters
 ========================================================================================
     Pipeline for processing 10x Genomics Perturb-seq data with CRISPR guide capture
     
-    This version uses subworkflows for better modularity:
-    - QC subworkflow: FastQC + MultiQC
-    - CELLRANGER_ANALYSIS subworkflow: Cell Ranger Multi
-    
-    Author: Diego A Delgadillo-Duran
-    Version: 1.0.0
+
 ========================================================================================
 */
 
@@ -22,12 +17,15 @@ log.info """\
     ========================================
      P E R T U R B - S E Q   P I P E L I N E
     ========================================
-    Version               : 1.0.0
+    Version               : 2.1.0 (Sample ID Support)
     Gene Expression FASTQ : ${params.genex_fastq}
     CRISPR FASTQ          : ${params.crispr_fastq}
+    Gene Expression ID    : ${params.genex_sample_id}
+    CRISPR Sample ID      : ${params.crispr_sample_id}
     Reference Genome      : ${params.reference}
     Feature Reference     : ${params.feature_reference}
     Output Directory      : ${params.outdir}
+    Cell Ranger ID        : ${params.cellranger_id}
     ========================================
     """
     .stripIndent()
@@ -51,6 +49,12 @@ if (!params.reference) {
 if (!params.feature_reference) {
     exit 1, "Feature reference not specified! Use --feature_reference"
 }
+if (!params.genex_sample_id) {
+    exit 1, "Gene expression sample ID not specified! Use --genex_sample_id"
+}
+if (!params.crispr_sample_id) {
+    exit 1, "CRISPR sample ID not specified! Use --crispr_sample_id"
+}
 
 /*
 ========================================================================================
@@ -58,7 +62,7 @@ if (!params.feature_reference) {
 ========================================================================================
 */
 
-// Create channels for FASTQ files
+// Create channels for FASTQ files (for QC)
 Channel
     .fromPath("${params.genex_fastq}/*fastq.gz")
     .set { genex_fastq_ch }
@@ -101,7 +105,9 @@ workflow {
         params.reference,
         params.feature_reference,
         params.cellranger_id,
-        params.expect_cells
+        params.expect_cells,
+        params.genex_sample_id,    // NEW: Pass sample IDs
+        params.crispr_sample_id    // NEW: Pass sample IDs
     )
 }
 

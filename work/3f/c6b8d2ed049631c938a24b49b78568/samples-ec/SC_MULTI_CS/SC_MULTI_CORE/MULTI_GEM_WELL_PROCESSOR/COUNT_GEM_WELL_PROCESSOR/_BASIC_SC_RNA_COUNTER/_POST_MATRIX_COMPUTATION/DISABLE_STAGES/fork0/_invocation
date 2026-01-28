@@ -1,0 +1,10 @@
+@include "rna/_basic_sc_rna_counter_stages.mro"
+
+call DISABLE_STAGES(
+    no_bam                = true,
+    disable_multi         = false,
+    is_pd                 = false,
+    is_visium_hd          = false,
+    raw_feature_bc_matrix = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/WRITE_H5_MATRIX/fork0/join-u821379e5c4/files/raw_feature_bc_matrix.h5",
+    probe_barcode_counts  = null,
+)

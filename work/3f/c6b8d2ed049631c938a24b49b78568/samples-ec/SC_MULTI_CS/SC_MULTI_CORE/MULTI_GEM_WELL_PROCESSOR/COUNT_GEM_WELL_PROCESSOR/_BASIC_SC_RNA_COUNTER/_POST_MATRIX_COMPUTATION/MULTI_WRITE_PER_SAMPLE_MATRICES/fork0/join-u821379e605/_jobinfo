@@ -1,0 +1,113 @@
+{
+    "name": "ID.samples-ec.SC_MULTI_CS.SC_MULTI_CORE.MULTI_GEM_WELL_PROCESSOR.COUNT_GEM_WELL_PROCESSOR._BASIC_SC_RNA_COUNTER._POST_MATRIX_COMPUTATION.MULTI_WRITE_PER_SAMPLE_MATRICES.fork0",
+    "type": "local",
+    "cwd": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/MULTI_WRITE_PER_SAMPLE_MATRICES/fork0/join-u821379e605/files",
+    "python": {
+        "binpath": "/opt/cellranger-10.0.0/external/anaconda/bin/python3",
+        "version": "3.12.11 | packaged by conda-forge | (main, Jun  4 2025, 14:45:31) [GCC 13.3.0]"
+    },
+    "rusage": {
+        "self": {
+            "ru_maxrss": 26944,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_minflt": 565,
+            "ru_majflt": 0,
+            "ru_nswap": 0,
+            "ru_utime": 0,
+            "ru_stime": 0.014422,
+            "ru_inblock": 0,
+            "ru_oublock": 40,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0,
+            "ru_nivcsw": 0
+        },
+        "children": {
+            "ru_maxrss": 150796,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_minflt": 31698,
+            "ru_majflt": 0,
+            "ru_nswap": 0,
+            "ru_utime": 2.365973,
+            "ru_stime": 0.359482,
+            "ru_inblock": 0,
+            "ru_oublock": 32,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0,
+            "ru_nivcsw": 22
+        }
+    },
+    "used_bytes": {
+        "rss": 72454144,
+        "shared": 38797312,
+        "vmem": 1916628992,
+        "text": 3829760,
+        "stack": 116887552,
+        "proc_count": 1
+    },
+    "io": {
+        "total": {
+            "read": {
+                "sysc": 863,
+                "bytes": 8192
+            },
+            "write": {
+                "sysc": 10,
+                "bytes": 0
+            }
+        },
+        "max": {
+            "read": {
+                "sysc": 1707.5008487992698,
+                "bytes": 16321.87509143946
+            },
+            "write": {
+                "sysc": 19.92416392997981,
+                "bytes": 0
+            }
+        },
+        "dev": {
+            "read": {
+                "sysc": 10.32486732247534,
+                "bytes": 1405.7385145729138
+            },
+            "write": {
+                "sysc": 1.7159893976720066,
+                "bytes": 0
+            }
+        }
+    },
+    "wallclock": {
+        "start": "2026-01-28T05:36:21.643102988-05:00",
+        "end": "2026-01-28T05:36:24.363162016-05:00",
+        "duration_seconds": 2.720059028
+    },
+    "profile_mode": "disable",
+    "stackvars_flag": "disable",
+    "monitor_flag": "disable",
+    "invocation": {
+        "call": "SC_MULTI_CS",
+        "args": {
+            "config": {
+                "bytes": null,
+                "file": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/cellranger_config.csv"
+            },
+            "no_preflight": false,
+            "sample_desc": "",
+            "sample_id": "samples-ec"
+        },
+        "mro_file": "rna/sc_multi_cs.mro"
+    },
+    "version": {
+        "martian": "v4.0.14",
+        "pipelines": "10.0.0"
+    },
+    "host": "AlejandroD-LOQ",
+    "pid": 1253575,
+    "threads": 1,
+    "memGB": 1,
+    "vmemGB": 4
+}

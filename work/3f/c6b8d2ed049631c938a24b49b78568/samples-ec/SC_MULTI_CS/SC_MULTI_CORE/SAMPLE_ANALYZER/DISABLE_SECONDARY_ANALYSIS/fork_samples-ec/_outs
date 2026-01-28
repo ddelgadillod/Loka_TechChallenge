@@ -1,0 +1,5 @@
+{
+    "no_secondary_analysis": false,
+    "parallel_umap": false,
+    "sketch_graphclust": false
+}

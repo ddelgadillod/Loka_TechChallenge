@@ -1,0 +1,7 @@
+@include "rna/_sc_crispr_analyzer_stages.mro"
+
+call MEASURE_PERTURBATIONS as _PERTURBATIONS_BY_TARGET(
+    protospacer_calls_per_cell = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/SAMPLE_ANALYZER/_CRISPR_ANALYZER/CALL_PROTOSPACERS/fork_samples-ec/join-u821379e6a9/files/protospacer_calls_per_cell.csv",
+    filtered_feature_counts_matrix = "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/samples-ec_filtered_feature_barcode_matrix.h5",
+    by_feature                 = false,
+)

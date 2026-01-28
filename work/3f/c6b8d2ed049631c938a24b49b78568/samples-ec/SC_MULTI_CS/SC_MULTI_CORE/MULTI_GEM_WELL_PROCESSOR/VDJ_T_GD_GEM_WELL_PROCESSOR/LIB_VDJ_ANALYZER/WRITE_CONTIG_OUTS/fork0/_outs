@@ -1,0 +1,16 @@
+{
+    "all_contig_barcodes": null,
+    "annotations_bed": null,
+    "cdr3_barcodes": null,
+    "cell_barcodes": null,
+    "contig_fasta": null,
+    "contig_fasta_fai": null,
+    "contig_fastq": null,
+    "filtered_contig_fasta": null,
+    "filtered_contig_fastq": null,
+    "paired_cdr3_barcodes": null,
+    "paired_cell_barcodes": null,
+    "paired_prod_barcodes": null,
+    "prod_barcodes": null,
+    "summary": null
+}

@@ -1,0 +1,608 @@
+{
+    "__mem_gb": 9,
+    "__threads": 4,
+    "__vmem_gb": 12,
+    "chemistry_defs": {
+        "CRISPR Guide Capture": {
+            "barcode": [
+                {
+                    "kind": "gel_bead",
+                    "length": 16,
+                    "offset": 0,
+                    "read_type": "R1",
+                    "whitelist": {
+                        "name": "3M-february-2018_NXT",
+                        "part": null,
+                        "slide": null,
+                        "strand": "+",
+                        "translation": true,
+                        "translation_whitelist_path": null
+                    }
+                }
+            ],
+            "barcode_extraction": null,
+            "description": "Single Cell 3' v3 (CS1)",
+            "endedness": "three_prime",
+            "name": "SC3Pv3-CS1",
+            "rna": {
+                "length": null,
+                "min_length": null,
+                "offset": 0,
+                "read_type": "R2"
+            },
+            "rna2": null,
+            "strandedness": "+",
+            "umi": [
+                {
+                    "length": 12,
+                    "min_length": 10,
+                    "offset": 16,
+                    "read_type": "R1",
+                    "whitelist": null
+                }
+            ]
+        },
+        "Gene Expression": {
+            "barcode": [
+                {
+                    "kind": "gel_bead",
+                    "length": 16,
+                    "offset": 0,
+                    "read_type": "R1",
+                    "whitelist": {
+                        "name": "3M-february-2018_TRU",
+                        "part": null,
+                        "slide": null,
+                        "strand": "+",
+                        "translation": false,
+                        "translation_whitelist_path": null
+                    }
+                }
+            ],
+            "barcode_extraction": null,
+            "description": "Single Cell 3' v3 (polyA)",
+            "endedness": "three_prime",
+            "name": "SC3Pv3-polyA",
+            "rna": {
+                "length": null,
+                "min_length": null,
+                "offset": 0,
+                "read_type": "R2"
+            },
+            "rna2": null,
+            "strandedness": "+",
+            "umi": [
+                {
+                    "length": 12,
+                    "min_length": 10,
+                    "offset": 16,
+                    "read_type": "R1",
+                    "whitelist": null
+                }
+            ]
+        }
+    },
+    "chunk_id": 4,
+    "feature_config": null,
+    "feature_reference": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/PARSE_MULTI_CONFIG/fork0/chnk0-u821379ddf2/files/feature_ref.csv",
+    "feature_reference_binary": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/MAKE_SHARD/fork0/split-u821379de76/files/feature_reference.frf.bincode",
+    "gem_well": 1,
+    "initial_reads": null,
+    "r1_length": null,
+    "r2_length": null,
+    "read_chunks": [
+        {
+            "chemistry": {
+                "barcode": [
+                    {
+                        "kind": "gel_bead",
+                        "length": 16,
+                        "offset": 0,
+                        "read_type": "R1",
+                        "whitelist": {
+                            "name": "3M-february-2018_TRU",
+                            "part": null,
+                            "slide": null,
+                            "strand": "+",
+                            "translation": false,
+                            "translation_whitelist_path": null
+                        }
+                    }
+                ],
+                "barcode_extraction": null,
+                "description": "Single Cell 3' v3 (polyA)",
+                "endedness": "three_prime",
+                "name": "SC3Pv3-polyA",
+                "rna": {
+                    "length": null,
+                    "min_length": null,
+                    "offset": 0,
+                    "read_type": "R2"
+                },
+                "rna2": null,
+                "strandedness": "+",
+                "umi": [
+                    {
+                        "length": 12,
+                        "min_length": 10,
+                        "offset": 16,
+                        "read_type": "R1",
+                        "whitelist": null
+                    }
+                ]
+            },
+            "chunk_id": 0,
+            "fastq_id": "SC3_v3_NextGem_DI_CRISPR_A549_5K_gex",
+            "fastqs": {
+                "i1": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_S5_L001_I1_001.fastq.gz",
+                "i2": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_S5_L001_I2_001.fastq.gz",
+                "r1": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_S5_L001_R1_001.fastq.gz",
+                "r1_interleaved": false,
+                "r2": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_S5_L001_R2_001.fastq.gz"
+            },
+            "gem_group": 1,
+            "library_id": 0,
+            "library_type": "Gene Expression",
+            "read_group": "samples-ec:0:1:HNC75DSXY:1",
+            "read_lengths": {},
+            "subsample_rate": null,
+            "umi_extractor": {
+                "translators": [
+                    null
+                ]
+            }
+        },
+        {
+            "chemistry": {
+                "barcode": [
+                    {
+                        "kind": "gel_bead",
+                        "length": 16,
+                        "offset": 0,
+                        "read_type": "R1",
+                        "whitelist": {
+                            "name": "3M-february-2018_TRU",
+                            "part": null,
+                            "slide": null,
+                            "strand": "+",
+                            "translation": false,
+                            "translation_whitelist_path": null
+                        }
+                    }
+                ],
+                "barcode_extraction": null,
+                "description": "Single Cell 3' v3 (polyA)",
+                "endedness": "three_prime",
+                "name": "SC3Pv3-polyA",
+                "rna": {
+                    "length": null,
+                    "min_length": null,
+                    "offset": 0,
+                    "read_type": "R2"
+                },
+                "rna2": null,
+                "strandedness": "+",
+                "umi": [
+                    {
+                        "length": 12,
+                        "min_length": 10,
+                        "offset": 16,
+                        "read_type": "R1",
+                        "whitelist": null
+                    }
+                ]
+            },
+            "chunk_id": 1,
+            "fastq_id": "SC3_v3_NextGem_DI_CRISPR_A549_5K_gex",
+            "fastqs": {
+                "i1": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_S5_L002_I1_001.fastq.gz",
+                "i2": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_S5_L002_I2_001.fastq.gz",
+                "r1": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_S5_L002_R1_001.fastq.gz",
+                "r1_interleaved": false,
+                "r2": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_S5_L002_R2_001.fastq.gz"
+            },
+            "gem_group": 1,
+            "library_id": 0,
+            "library_type": "Gene Expression",
+            "read_group": "samples-ec:0:1:HNC75DSXY:2",
+            "read_lengths": {},
+            "subsample_rate": null,
+            "umi_extractor": {
+                "translators": [
+                    null
+                ]
+            }
+        },
+        {
+            "chemistry": {
+                "barcode": [
+                    {
+                        "kind": "gel_bead",
+                        "length": 16,
+                        "offset": 0,
+                        "read_type": "R1",
+                        "whitelist": {
+                            "name": "3M-february-2018_TRU",
+                            "part": null,
+                            "slide": null,
+                            "strand": "+",
+                            "translation": false,
+                            "translation_whitelist_path": null
+                        }
+                    }
+                ],
+                "barcode_extraction": null,
+                "description": "Single Cell 3' v3 (polyA)",
+                "endedness": "three_prime",
+                "name": "SC3Pv3-polyA",
+                "rna": {
+                    "length": null,
+                    "min_length": null,
+                    "offset": 0,
+                    "read_type": "R2"
+                },
+                "rna2": null,
+                "strandedness": "+",
+                "umi": [
+                    {
+                        "length": 12,
+                        "min_length": 10,
+                        "offset": 16,
+                        "read_type": "R1",
+                        "whitelist": null
+                    }
+                ]
+            },
+            "chunk_id": 2,
+            "fastq_id": "SC3_v3_NextGem_DI_CRISPR_A549_5K_gex",
+            "fastqs": {
+                "i1": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_S5_L003_I1_001.fastq.gz",
+                "i2": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_S5_L003_I2_001.fastq.gz",
+                "r1": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_S5_L003_R1_001.fastq.gz",
+                "r1_interleaved": false,
+                "r2": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_S5_L003_R2_001.fastq.gz"
+            },
+            "gem_group": 1,
+            "library_id": 0,
+            "library_type": "Gene Expression",
+            "read_group": "samples-ec:0:1:HNC75DSXY:3",
+            "read_lengths": {},
+            "subsample_rate": null,
+            "umi_extractor": {
+                "translators": [
+                    null
+                ]
+            }
+        },
+        {
+            "chemistry": {
+                "barcode": [
+                    {
+                        "kind": "gel_bead",
+                        "length": 16,
+                        "offset": 0,
+                        "read_type": "R1",
+                        "whitelist": {
+                            "name": "3M-february-2018_TRU",
+                            "part": null,
+                            "slide": null,
+                            "strand": "+",
+                            "translation": false,
+                            "translation_whitelist_path": null
+                        }
+                    }
+                ],
+                "barcode_extraction": null,
+                "description": "Single Cell 3' v3 (polyA)",
+                "endedness": "three_prime",
+                "name": "SC3Pv3-polyA",
+                "rna": {
+                    "length": null,
+                    "min_length": null,
+                    "offset": 0,
+                    "read_type": "R2"
+                },
+                "rna2": null,
+                "strandedness": "+",
+                "umi": [
+                    {
+                        "length": 12,
+                        "min_length": 10,
+                        "offset": 16,
+                        "read_type": "R1",
+                        "whitelist": null
+                    }
+                ]
+            },
+            "chunk_id": 3,
+            "fastq_id": "SC3_v3_NextGem_DI_CRISPR_A549_5K_gex",
+            "fastqs": {
+                "i1": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_S5_L004_I1_001.fastq.gz",
+                "i2": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_S5_L004_I2_001.fastq.gz",
+                "r1": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_S5_L004_R1_001.fastq.gz",
+                "r1_interleaved": false,
+                "r2": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_gex_S5_L004_R2_001.fastq.gz"
+            },
+            "gem_group": 1,
+            "library_id": 0,
+            "library_type": "Gene Expression",
+            "read_group": "samples-ec:0:1:HNC75DSXY:4",
+            "read_lengths": {},
+            "subsample_rate": null,
+            "umi_extractor": {
+                "translators": [
+                    null
+                ]
+            }
+        },
+        {
+            "chemistry": {
+                "barcode": [
+                    {
+                        "kind": "gel_bead",
+                        "length": 16,
+                        "offset": 0,
+                        "read_type": "R1",
+                        "whitelist": {
+                            "name": "3M-february-2018_NXT",
+                            "part": null,
+                            "slide": null,
+                            "strand": "+",
+                            "translation": true,
+                            "translation_whitelist_path": null
+                        }
+                    }
+                ],
+                "barcode_extraction": null,
+                "description": "Single Cell 3' v3 (CS1)",
+                "endedness": "three_prime",
+                "name": "SC3Pv3-CS1",
+                "rna": {
+                    "length": null,
+                    "min_length": null,
+                    "offset": 0,
+                    "read_type": "R2"
+                },
+                "rna2": null,
+                "strandedness": "+",
+                "umi": [
+                    {
+                        "length": 12,
+                        "min_length": 10,
+                        "offset": 16,
+                        "read_type": "R1",
+                        "whitelist": null
+                    }
+                ]
+            },
+            "chunk_id": 4,
+            "fastq_id": "SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr",
+            "fastqs": {
+                "i1": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_S4_L001_I1_001.fastq.gz",
+                "i2": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_S4_L001_I2_001.fastq.gz",
+                "r1": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_S4_L001_R1_001.fastq.gz",
+                "r1_interleaved": false,
+                "r2": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_S4_L001_R2_001.fastq.gz"
+            },
+            "gem_group": 1,
+            "library_id": 1,
+            "library_type": "CRISPR Guide Capture",
+            "read_group": "samples-ec:1:1:HNC75DSXY:1",
+            "read_lengths": {},
+            "subsample_rate": null,
+            "umi_extractor": {
+                "translators": [
+                    null
+                ]
+            }
+        },
+        {
+            "chemistry": {
+                "barcode": [
+                    {
+                        "kind": "gel_bead",
+                        "length": 16,
+                        "offset": 0,
+                        "read_type": "R1",
+                        "whitelist": {
+                            "name": "3M-february-2018_NXT",
+                            "part": null,
+                            "slide": null,
+                            "strand": "+",
+                            "translation": true,
+                            "translation_whitelist_path": null
+                        }
+                    }
+                ],
+                "barcode_extraction": null,
+                "description": "Single Cell 3' v3 (CS1)",
+                "endedness": "three_prime",
+                "name": "SC3Pv3-CS1",
+                "rna": {
+                    "length": null,
+                    "min_length": null,
+                    "offset": 0,
+                    "read_type": "R2"
+                },
+                "rna2": null,
+                "strandedness": "+",
+                "umi": [
+                    {
+                        "length": 12,
+                        "min_length": 10,
+                        "offset": 16,
+                        "read_type": "R1",
+                        "whitelist": null
+                    }
+                ]
+            },
+            "chunk_id": 5,
+            "fastq_id": "SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr",
+            "fastqs": {
+                "i1": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_S4_L002_I1_001.fastq.gz",
+                "i2": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_S4_L002_I2_001.fastq.gz",
+                "r1": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_S4_L002_R1_001.fastq.gz",
+                "r1_interleaved": false,
+                "r2": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_S4_L002_R2_001.fastq.gz"
+            },
+            "gem_group": 1,
+            "library_id": 1,
+            "library_type": "CRISPR Guide Capture",
+            "read_group": "samples-ec:1:1:HNC75DSXY:2",
+            "read_lengths": {},
+            "subsample_rate": null,
+            "umi_extractor": {
+                "translators": [
+                    null
+                ]
+            }
+        },
+        {
+            "chemistry": {
+                "barcode": [
+                    {
+                        "kind": "gel_bead",
+                        "length": 16,
+                        "offset": 0,
+                        "read_type": "R1",
+                        "whitelist": {
+                            "name": "3M-february-2018_NXT",
+                            "part": null,
+                            "slide": null,
+                            "strand": "+",
+                            "translation": true,
+                            "translation_whitelist_path": null
+                        }
+                    }
+                ],
+                "barcode_extraction": null,
+                "description": "Single Cell 3' v3 (CS1)",
+                "endedness": "three_prime",
+                "name": "SC3Pv3-CS1",
+                "rna": {
+                    "length": null,
+                    "min_length": null,
+                    "offset": 0,
+                    "read_type": "R2"
+                },
+                "rna2": null,
+                "strandedness": "+",
+                "umi": [
+                    {
+                        "length": 12,
+                        "min_length": 10,
+                        "offset": 16,
+                        "read_type": "R1",
+                        "whitelist": null
+                    }
+                ]
+            },
+            "chunk_id": 6,
+            "fastq_id": "SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr",
+            "fastqs": {
+                "i1": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_S4_L003_I1_001.fastq.gz",
+                "i2": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_S4_L003_I2_001.fastq.gz",
+                "r1": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_S4_L003_R1_001.fastq.gz",
+                "r1_interleaved": false,
+                "r2": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_S4_L003_R2_001.fastq.gz"
+            },
+            "gem_group": 1,
+            "library_id": 1,
+            "library_type": "CRISPR Guide Capture",
+            "read_group": "samples-ec:1:1:HNC75DSXY:3",
+            "read_lengths": {},
+            "subsample_rate": null,
+            "umi_extractor": {
+                "translators": [
+                    null
+                ]
+            }
+        },
+        {
+            "chemistry": {
+                "barcode": [
+                    {
+                        "kind": "gel_bead",
+                        "length": 16,
+                        "offset": 0,
+                        "read_type": "R1",
+                        "whitelist": {
+                            "name": "3M-february-2018_NXT",
+                            "part": null,
+                            "slide": null,
+                            "strand": "+",
+                            "translation": true,
+                            "translation_whitelist_path": null
+                        }
+                    }
+                ],
+                "barcode_extraction": null,
+                "description": "Single Cell 3' v3 (CS1)",
+                "endedness": "three_prime",
+                "name": "SC3Pv3-CS1",
+                "rna": {
+                    "length": null,
+                    "min_length": null,
+                    "offset": 0,
+                    "read_type": "R2"
+                },
+                "rna2": null,
+                "strandedness": "+",
+                "umi": [
+                    {
+                        "length": 12,
+                        "min_length": 10,
+                        "offset": 16,
+                        "read_type": "R1",
+                        "whitelist": null
+                    }
+                ]
+            },
+            "chunk_id": 7,
+            "fastq_id": "SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr",
+            "fastqs": {
+                "i1": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_S4_L004_I1_001.fastq.gz",
+                "i2": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_S4_L004_I2_001.fastq.gz",
+                "r1": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_S4_L004_R1_001.fastq.gz",
+                "r1_interleaved": false,
+                "r2": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/test_files/SC3_sub3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_subsampled_3p/SC3_v3_NextGem_DI_CRISPR_A549_5K_crispr_S4_L004_R2_001.fastq.gz"
+            },
+            "gem_group": 1,
+            "library_id": 1,
+            "library_type": "CRISPR Guide Capture",
+            "read_group": "samples-ec:1:1:HNC75DSXY:4",
+            "read_lengths": {},
+            "subsample_rate": null,
+            "umi_extractor": {
+                "translators": [
+                    null
+                ]
+            }
+        }
+    ],
+    "reference_info": {
+        "genomes": [
+            "GRCh38"
+        ],
+        "transcriptome_info": {
+            "fasta_hash": "b6f131840f9f337e7b858c3d1e89d7ce0321b243",
+            "gtf_hash": "",
+            "gtf_hash_gz": "3b4c36ca3bade222a5b53394e8c07a18db7ebb11",
+            "input_fasta_files": [
+                "Homo_sapiens.GRCh38.dna.primary_assembly.fa.modified"
+            ],
+            "input_gtf_files": [
+                "gencode.v32.primary_assembly.annotation.gtf.filtered"
+            ],
+            "mem_gb": 16.0,
+            "mkref_version": "cellranger-arc-2.0.0",
+            "reference_path": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/refdata-cellranger-arc-GRCh38-2020-A-2.0.0"
+        },
+        "version": "2020-A"
+    },
+    "subsample_rate": null,
+    "target_features": null,
+    "target_set": null,
+    "target_set_name": null,
+    "umi_min_read_length": null
+}

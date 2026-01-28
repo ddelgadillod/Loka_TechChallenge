@@ -1,0 +1,17 @@
+nextflow.trace/v2
+realtime=2553117
+%cpu=2947
+cpu_model=AMD Ryzen 5 220 w/ Radeon 740M Graphics
+rchar=45449083198
+wchar=3139203122
+syscr=6978465
+syscw=88844
+read_bytes=18515574784
+write_bytes=3127394304
+%mem=836
+vmem=18995436
+rss=14552716
+peak_vmem=19126544
+peak_rss=14558664
+vol_ctxt=201449
+inv_ctxt=1182

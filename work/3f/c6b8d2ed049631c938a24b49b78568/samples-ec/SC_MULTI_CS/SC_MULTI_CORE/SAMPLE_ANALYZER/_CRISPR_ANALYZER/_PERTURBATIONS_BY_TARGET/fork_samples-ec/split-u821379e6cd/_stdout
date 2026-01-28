@@ -1,0 +1,2 @@
+[stdout]
+num_perturbations=45,num_gex_features=36601,num_crispr_features=93,num_features=36706,num_barcodes=5645,nnz=1991798,mem_gib=2.5

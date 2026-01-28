@@ -1,0 +1,8 @@
+{
+    "disable_count": false,
+    "is_antibody_only": false,
+    "is_non_targeted_gex": true,
+    "multiplet_filter": null,
+    "shared_contig_filter": null,
+    "umi_baseline_filter": null
+}

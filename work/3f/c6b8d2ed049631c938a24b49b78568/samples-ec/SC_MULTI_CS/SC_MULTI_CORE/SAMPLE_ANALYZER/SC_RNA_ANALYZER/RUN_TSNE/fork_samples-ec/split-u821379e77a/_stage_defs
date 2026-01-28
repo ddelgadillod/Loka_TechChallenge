@@ -1,0 +1,15 @@
+{
+  "chunks": [
+    {
+      "__mem_gb": 4,
+      "feature_type": "Gene Expression",
+      "tsne_dims": 2
+    },
+    {
+      "__mem_gb": 4,
+      "feature_type": "CRISPR Guide Capture",
+      "tsne_dims": 2
+    }
+  ],
+  "join": {}
+}

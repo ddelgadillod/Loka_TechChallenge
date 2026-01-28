@@ -1,0 +1,21 @@
+{
+    "__mem_gb": 3,
+    "__threads": 1,
+    "__vmem_gb": 6,
+    "disable_correct_chemistry_batch": true,
+    "disable_run_pca": false,
+    "enable_tsne": true,
+    "exclude_genes": null,
+    "force_cells": null,
+    "get_peak_matrix": false,
+    "is_antibody_only": false,
+    "is_pd": false,
+    "is_visium_hd": false,
+    "matrix_h5": "/home/alejo/genexomics-perturbseq/round2/Loka_TechChallenge/work/3f/c6b8d2ed049631c938a24b49b78568/samples-ec/SC_MULTI_CS/SC_MULTI_CORE/STRUCTIFY_PER_SAMPLE_OUTS/fork0/chnk0-u821379e6a8/files/samples-ec_filtered_feature_barcode_matrix.h5",
+    "num_bcs": null,
+    "random_seed": null,
+    "skip": false,
+    "skip_multigenome_analysis": false,
+    "use_bcs": null,
+    "use_genes": null
+}
