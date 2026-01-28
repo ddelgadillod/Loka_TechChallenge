@@ -1,3 +1,8 @@
 /refdata-cellranger-arc-GRCh38-2020-A-2.0.0/
 /test_crm/
-
+/cellranger-10.0.0/
+/results/
+/old_test_crm/
+cellranger_config.csv
+perturbseq.sh
+__test_crm.mro
